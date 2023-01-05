@@ -1,20 +1,55 @@
-.container {
-  margin: auto;
-  max-width: 500px;
-  font-family: sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
 }
 
-.heading {
-  color: rebeccapurple;
+a:link,
+a:visited,
+a:active {
+	color: #fff;
+	text-decoration: none;
 }
-.nav-links {
-  display: flex;
-  list-style: none;
-  padding-left: 0;
+
+a:hover {
+	color: #d6ba44;
 }
-.nav-link-item {
-  padding-right: 2rem;
+
+.pageWrap {
+	color: #fff;
 }
-.nav-link-text {
-  color: black;
+
+.mainWrap {
+	background-color: #0f1a1b;
+}
+
+.footerWrap {
+	background-color: #111c1d;	
+}
+
+.reviewsWrap {
+	background: rgb(20,35,36);
+	background: linear-gradient(0deg, rgba(20,35,36,1) 0%, rgba(14,23,24,1) 100%); 
+}
+
+.navBoilPadWrap {
+
+}
+
+.footerNav {
+
+}
+
+.movieBoilerplate {
+
+}
+
+.footerPadding {
+
+}
+
+.headerNavWrap {
+	background-color: tan;
 }
