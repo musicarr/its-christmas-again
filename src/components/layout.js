@@ -2,6 +2,7 @@ import * as React from 'react'
 import { Link } from 'gatsby'
 import * as styles from './layout.module.css'
 import { StaticImage } from 'gatsby-plugin-image'
+import { Script } from 'gatsby'
 
 const Layout = ({ children }) => {
   return (
@@ -70,6 +71,7 @@ const Layout = ({ children }) => {
 				<a href="javascript:;">Log In</a>
 			</div>
 		</nav>
+		<Script src="/global.js" />
 	</div>
   )
 }
